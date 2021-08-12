@@ -109,6 +109,12 @@ a:hover {
     }
 }
 
+@media (max-width: 320px){
+    .welcome-hero .container{
+        margin-top: 50px;
+    }
+}
+
 .welcome-hero .btn-learn-more {
     font-family: 'Trueno Regular', sans-serif;
     text-transform: uppercase;
