@@ -129,6 +129,20 @@ a:hover {
     background: #733411;
 }
 
+.welcome-content .btn-learn-more {
+    font-family: 'Trueno Regular', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 20px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #733411;
+}
+
 .welcome-hero .btn-learn-more:hover {
     background: #b35929;
 }
@@ -141,6 +155,7 @@ a:hover {
 .welcome-content p {
     font-family: "Trueno Light";
 }
+
 
 /*--------------------------------------------------------------
 # HAMBURGER MENU
@@ -341,6 +356,7 @@ a, a:visited, a:hover, a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: rgba(115, 52, 17, 1) solid thin;
 }
 
 .mantra-cta h2 {
@@ -433,4 +449,9 @@ a, a:visited, a:hover, a:active {
     padding-top: 10px;
     text-align: center;
     font-size: 13px;
+}
+
+.map {
+    line-height: 0; 
+    padding: 10px 0;
 }
