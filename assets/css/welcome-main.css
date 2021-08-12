@@ -99,9 +99,9 @@ a:hover {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
     .welcome-hero {
-        height: 90vh;
+        height: 95vh;
         background-image: url(../img/welcome/bg-1.png);
         background-attachment: fixed;
         background-size: cover;
