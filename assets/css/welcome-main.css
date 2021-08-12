@@ -133,6 +133,15 @@ a:hover {
     background: #b35929;
 }
 
+.welcome-content {
+    border-top: rgba(115, 52, 17, 1) solid thin;
+    border-bottom: rgba(115, 52, 17, 1) solid thin;
+}
+
+.welcome-content p {
+    font-family: "Trueno Light";
+}
+
 /*--------------------------------------------------------------
 # HAMBURGER MENU
 --------------------------------------------------------------*/
@@ -204,6 +213,11 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
 }
 
+@media (max-width: 320px){
+    .outer-menu .hamburger {
+        border-radius: 0;
+    }
+}
 
 .outer-menu .hamburger > div {
     position: relative;
@@ -378,6 +392,7 @@ a, a:visited, a:hover, a:active {
 --------------------------------------------------------------*/
 
 .footer {
+    border-top: rgba(115, 52, 17, 1) solid thin;
     font-family: 'Trueno Light';
     text-align: center;
     background: #f6f9ff;;
