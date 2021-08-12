@@ -213,12 +213,6 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
 }
 
-@media (max-width: 320px){
-    .outer-menu .hamburger {
-        border-radius: 0;
-    }
-}
-
 .outer-menu .hamburger > div {
     position: relative;
     flex: none;
@@ -264,7 +258,7 @@ a, a:visited, a:hover, a:active {
     height: 200vw;
     color: #FEFEFE;
     background: rgba(230, 163, 20, 0.95);
-    border-radius: 50%;
+    border-radius: 100%;
     transition: all .4s ease;
     flex: none;
     transform: scale(0);
