@@ -195,7 +195,7 @@
      */
     $('.jarallax').jarallax({
       speed: 0.5,
-      disableParallax: false,
-      disableVideo: false
+      disableParallax: true,
+      disableVideo: true
   });
 })(jQuery);
