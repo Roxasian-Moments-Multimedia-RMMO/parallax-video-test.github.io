@@ -99,6 +99,16 @@ a:hover {
     }
 }
 
+@media (max-width: 768px){
+    .welcome-hero {
+        height: 90vh;
+        background-image: url(../img/welcome/bg-1.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .welcome-hero .btn-learn-more {
     font-family: 'Trueno Regular', sans-serif;
     text-transform: uppercase;
@@ -299,12 +309,13 @@ a, a:visited, a:hover, a:active {
 # WELCOME - CONTENT
 --------------------------------------------------------------*/
 .welcome-content {
-    padding: 110px;
+    padding: 110px 0;
 }
 
 .welcome-content p {
     text-align: justify;
 }
+
 
 /*--------------------------------------------------------------
 # MANTRA CALL TO ACTION
