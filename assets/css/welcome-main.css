@@ -133,17 +133,23 @@ a:hover {
     font-family: 'Trueno Regular', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 20px 28px;
+    padding: 14px 28px;
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
     background: #733411;
 }
 
-.welcome-hero .btn-learn-more:hover {
+@media (min-width: 1440px) {
+    .welcome-hero .btn-learn-more {
+        font-size: 14px;
+    }
+}
+
+.welcome-hero .btn-learn-more:hover, .welcome-content .btn-learn-more:hover {
     background: #b35929;
 }
 
