@@ -1,0 +1,59 @@
+/**
+* MARHS WEBSITE ver. 001 (ALPHA REVISED)
+* Author : Vincent Ferrer
+* Ask Vincent Ferrer for changes/updates
+
+==== COLOR PALLETE ====
+golden yellow:
+#e6a314
+
+brown:
+#733411
+
+Gradient Backgrounds:
+Light Gold Yellow:
+#e6a314
+
+Dark Gold Yellow:
+#febb2e
+
+
+Elements or Abstracts:
+Light Gold Yellow:
+#e6a314
+
+Dark Gold Yellow:
+#febb2e
+
+**/
+
+/*--------------------------------------------------------------
+==== GENERAL ====
+--------------------------------------------------------------*/
+html, body {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Trueno Regular', sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #733411;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b8860b;
+    text-decoration: none;
+}
+
